@@ -1,0 +1,31 @@
+.aboutInfoWrapper {
+    display: grid;
+    background-color: pink;
+    grid-template-columns: 10% 30% 10% 40% 10%;
+    grid-template-rows: 20% 75% 5%;
+    height: 100%;
+}
+
+.some {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.aboutPhoto {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: aqua;
+}
+
+.aboutText {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: bisque;
+}

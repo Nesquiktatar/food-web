@@ -1,0 +1,27 @@
+.headerWrapper{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-columns: 3% 25% 47% 10% 2% 10% 3%;
+    background-color: purple;
+}
+
+.logo{
+    background-color: chocolate;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.whats{
+    background-color: blue;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.inst{
+    background-color: red;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}

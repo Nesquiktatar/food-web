@@ -1,0 +1,18 @@
+.startWrapper {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    background-color: greenyellow;
+    display: grid;
+    grid-template-rows: 20% 25% 25% 20% 15%;
+    height: 100%;
+}
+
+.header {
+    background-color: coral;
+}
+
+.main {
+    background-color: rosybrown;
+}
+
+

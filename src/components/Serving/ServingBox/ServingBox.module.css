@@ -1,0 +1,33 @@
+.servingBoxWrapper{
+    display: grid;
+    grid-template-rows: 1fr 3fr 6fr 1fr;
+    grid-template-columns:4% 44% 4% 44% 4% ;
+    height: 100%;
+    background-color: #c4f8ff;
+}
+
+.servingBoxTitle {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    color: greenyellow;
+}
+
+.servingBoxDescription {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.servingBoxImage1 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+}
+.servingBoxImage2 {
+    grid-row-start: 3;
+    grid-column-start: 4;
+    width: 100%;
+    height: 100%
+}

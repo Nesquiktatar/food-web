@@ -1,0 +1,18 @@
+.giftBoxWrapper{
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 80% 10% 10%;
+    height: 100%;
+}
+
+.giftBoxImage{
+    grid-row-start:1
+}
+
+.giftBoxName {
+    grid-row-start: 2;
+}
+
+.giftBoxPrice {
+    grid-row-start: 3;
+}

@@ -1,0 +1,34 @@
+.giftsWrapper{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    display: grid;
+
+    grid-template-rows: 5% 20% 70%;
+    grid-template-columns: 5% 40% 10% 40% 5%;
+    background-color: red;
+    height: 100%;
+}
+
+.giftsTitle{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end:5;
+    background-color: aqua;
+}
+.giftsText{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: blue;
+}
+.giftBox1 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    background-color: pink;
+}
+
+.giftBox2 {
+    grid-row-start: 3;
+    grid-column-start: 4;
+    background-color: brown;
+}

@@ -1,0 +1,42 @@
+.feedBackWrapper{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-rows: 16% 15% 3% 15% 3% 15% 5% 25% 3%;
+    grid-template-columns: 3%  41% 12%  41% 3%;
+    height: 100%;
+}
+
+.calendar {
+    grid-row-start: 2;
+    grid-row-end: 7;
+    grid-column-start :4;
+    grid-column-end :5;
+    background-color: aqua;
+}
+.userName{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+.userPhone{
+    grid-row-start: 4;
+    grid-column-start: 2;
+}.userMail{
+    grid-row-start: 6;
+    grid-column-start: 2;
+}
+
+.userText {
+    grid-column-start: 2;
+    grid-row-start: 8;
+}
+
+.userSendButton{
+    grid-column-start: 4;
+    grid-row-start: 8;
+}
+
+.feedBackTitle {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
