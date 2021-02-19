@@ -2,7 +2,8 @@
     grid-column-start: 2;
     grid-row-start: 2;
     display: grid;
-    grid-template-areas: 'item item item item item';
+    grid-template-areas: 'item  item item item item item';
+    background-color: #7ae595;
 }
 
 .item a {
@@ -13,4 +14,11 @@
 
 .item a.activeLink {
     color: gold;
+}
+
+.dropDownWrapper {
+
+    background-color: red;
+    position: absolute;
+    border-radius: 10px;
 }

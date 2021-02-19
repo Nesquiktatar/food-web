@@ -8,6 +8,10 @@ import {BrowserRouter, Route} from "react-router-dom";
 import Playgrounds from "./components/Playgrounds/Playgrounds";
 import Serving from "./components/Serving/Serving";
 import Reviews from "./components/Reviews/Reviews";
+import Delivery from "./components/Delivery/Delivery";
+import Menu from "./components/Menu/Menu";
+import MenuPosition from "./components/Menu/MenuPosition/MenuPosition";
+import Faq from "./components/Faq/Faq";
 
 
 const App = () => {
@@ -23,6 +27,10 @@ const App = () => {
                         <Route path='/playgrounds' component={Playgrounds}/>
                         <Route path='/serving' component={Serving}/>
                         <Route path='/reviews' component={Reviews}/>
+                        <Route path='/delivery' component={Delivery}/>
+                        <Route exact path='/menu' component={Menu}/>
+                        <Route path='/menu/id' component={MenuPosition}/>
+                        <Route path='/faq' component={Faq}/>
                     </div>
                     <div className='footer'>Footer</div>
                 </header>

@@ -1,0 +1,15 @@
+.menuBoxWrapper{
+    background-color: green;
+    display: grid;
+    grid-template-rows: 75% 15% 10%;
+}
+
+.menuBoxImg {
+    height: 100%;
+    width: 100%;
+}
+
+.menuBoxDescription{
+    font-size: smaller;
+    color: red;
+}

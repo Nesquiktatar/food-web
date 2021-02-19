@@ -7,9 +7,7 @@ const Review = (props) => {
             <div className={s.reviewDescription}>
                 {props.reviewDescription}
             </div>
-            <div className={s.reviewImg}>
-                <img src={props.reviewImg} alt={props.reviewAlt}/>
-            </div>
+            <img src={props.reviewImg} alt={props.reviewAlt} className={s.reviewImg}/>
         </div>
     )
 }

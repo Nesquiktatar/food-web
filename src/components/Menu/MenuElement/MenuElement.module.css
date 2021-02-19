@@ -1,0 +1,29 @@
+.menuElementWrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4, 25%);
+    height: 100%;
+}
+
+.menuElementImg{
+    grid-row-start: 1;
+    grid-row-end:5;
+    width: 100%;
+    height: 100%;
+}
+
+.menuElementName {
+    grid-column-start: 2;
+}
+
+.menuElementComposition {
+    grid-column-start: 2;
+}
+
+.menuElementWeight {
+    grid-column-start: 2;
+}
+
+.menuElementPrice{
+    grid-column-start: 2;
+}

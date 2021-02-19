@@ -1,0 +1,9 @@
+.menuWrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.menuBox {
+    padding: 5%;
+}
+

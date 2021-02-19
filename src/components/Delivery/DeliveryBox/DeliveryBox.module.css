@@ -1,0 +1,24 @@
+.deliveryBoxWrapper {
+    display: grid;
+    grid-template-rows: 4% 82% 10% 4%;
+    grid-template-columns: 10% 40% 5% 40% 5%;
+    height: 100%;
+}
+
+.deliveryImg{
+    grid-column-start: 2;
+    height: 100%;
+    width: 100%;
+    grid-row-start: 2;
+}
+
+.deliveryLink{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    height: 100%;
+}
+
+.deliveryDescription {
+    grid-row-start: 2;
+    grid-column-start: 4;
+}

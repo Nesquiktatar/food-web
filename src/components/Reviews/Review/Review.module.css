@@ -14,5 +14,6 @@
 .reviewImg {
     grid-column-start: 2;
     grid-row-start: 2;
-    padding: 10%;
+    height: 100%;
+    width: 100%;
 }
