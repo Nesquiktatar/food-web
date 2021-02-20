@@ -3,7 +3,7 @@
     grid-column-start: 2;
     background-color: greenyellow;
     display: grid;
-    grid-template-rows: 20% 25% 25% 20% 15%;
+    grid-template-rows: 20% 25% 30% 15% 15%;
     height: 100%;
 }
 
